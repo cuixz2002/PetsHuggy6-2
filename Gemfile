@@ -28,12 +28,6 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
-begin
-  require 'minitest/autorun'
-rescue LoadError => e
-  raise e unless ENV['RAILS_ENV'] == "production"
-end
-
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
