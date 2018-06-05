@@ -22,7 +22,7 @@ gem 'json', github: 'flori/json', branch: 'v1.8'
 
 
 group :production do 
-	gem 'pg'
+	gem 'pg', '~> 0.19.0'
 	gem 'rails_12factor'
 end
 
