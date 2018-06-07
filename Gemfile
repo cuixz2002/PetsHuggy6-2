@@ -18,6 +18,7 @@ gem "paperclip", "~> 5.0.0.beta1"
 gem 'dropzonejs-rails'
 gem "figaro", "~> 1.1.0"
 gem 'json', github: 'flori/json', branch: 'v1.8'
+gem 'aws-sdk-s3'
 
 
 
